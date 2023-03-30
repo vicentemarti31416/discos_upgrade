@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Disco } from './shared/disco';
 
 @Component({
   selector: 'app-root',

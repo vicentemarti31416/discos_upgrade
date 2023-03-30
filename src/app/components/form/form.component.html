@@ -1,0 +1,17 @@
+<div class="form__viewport__container">
+    <form class="form__container">
+        <div class="mb-3">
+            <label for="idDisco" class="form-label">Id disco</label>
+            <input type="number" class="form-control" id="idDisco" name="disco.id" [(ngModel)]="disco.id">
+        </div>
+        <div class="mb-3">
+            <label for="nombreDisco" class="form-label">Nombre disco</label>
+            <input type="text" class="form-control" id="nombreDisco" name="disco.id" [(ngModel)]="disco.name">
+        </div>
+        <div class="mb-3">
+            <label for="imgDisco" class="form-label">Imagen disco</label>
+            <input type="text" class="form-control" id="imgDisco" name="disco.image" [(ngModel)]="disco.image">
+        </div>
+        <button type="button" (click)="updateDiscos()" class="btn btn-primary">Guardar disco</button>
+    </form>
+</div>
